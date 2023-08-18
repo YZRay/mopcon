@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Layout/Header";
 import Footer from "./components/Layout/Footer";
 import Home from "./page/Home";
@@ -12,15 +12,14 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
+      <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/host-community" element={<HostCommunity />} />
         <Route path="/time-machine" element={<TimeMachine />} />
         <Route path="/speaker" element={<Speaker />} />
         <Route path="/ticket" element={<Ticket />} />
         <Route path="/sponsor" element={<Sponsor />} />
-      </Switch>
-
+      </Routes>
       <Footer />
     </Router>
   );
