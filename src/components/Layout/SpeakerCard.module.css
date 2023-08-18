@@ -1,0 +1,80 @@
+.speak-container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+
+  color: #2b383c;
+}
+.card {
+  max-width: 384px;
+  cursor: pointer;
+  border-radius: 20px;
+  max-height: 463px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.img-container {
+  background-color: #f6ebcc;
+  width: 384px;
+  height: 300px;
+  object-fit: fill;
+}
+.img-container img {
+  width: 100%;
+}
+.content-container {
+  height: 163px;
+}
+.name {
+  margin-top: 36px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}
+.job-title {
+  font-size: 16px;
+  text-align: center;
+}
+
+.tab {
+  font-size: 14px;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .speak-container {
+    max-width: 960px;
+    gap: 12px;
+    margin: 0 auto;
+  }
+  .card {
+    max-width: 300px;
+    max-height: 463px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .speak-container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .card {
+    margin: 0 auto 20px auto;
+    max-width: 340px;
+    max-height: 463px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .speak-container {
+    max-width: 343px;
+    margin: 20px auto 0 auto;
+  }
+  .card {
+    margin-bottom: 20px;
+    max-width: 343px;
+    max-height: 463px;
+  }
+}

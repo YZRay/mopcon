@@ -1,0 +1,25 @@
+.container {
+  border-top: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 70px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 24px;
+  font-family: "Wallpoet";
+  color: #fff;
+
+  margin-top: 80px;
+}
+.textcolor {
+  color: #f47c57;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}

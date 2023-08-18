@@ -1,0 +1,226 @@
+.container {
+  border: 2px solid #f6ebcc;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.team {
+  border-radius: 27px;
+  background-color: #f6ebcc;
+  font-size: 20px;
+  color: #fbc427;
+  font-weight: bold;
+  text-align: center;
+  padding: 13px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.content a {
+  text-decoration: none;
+  color: #f47c57;
+  font-size: 16px;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+/* ICON */
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 80px;
+}
+.container:nth-child(odd) .icon-container {
+  justify-content: end;
+}
+.icon:hover {
+  color: #fff;
+  background-color: #f47c57;
+  transition: all 0.3s;
+}
+.icon:hover path {
+  fill: #ffffff;
+  transition: all 0.3s;
+}
+.icon-none {
+  display: none !important;
+  opacity: 0;
+}
+.icon {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #f47c57;
+  max-width: 124px;
+  padding: 8px 0;
+}
+.site {
+  max-width: 124px;
+  padding: 8px 38px;
+}
+.fb {
+  max-width: 124px;
+  padding: 8px 16px;
+  margin-right: 16px;
+}
+/* ICON */
+.container:nth-child(even) .team {
+  left: 10%;
+}
+.container:nth-child(odd) .team {
+  left: 90%;
+}
+.team-position {
+  left: 85% !important;
+}
+.content-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 62px 0;
+  max-width: 1020px;
+}
+
+.container:nth-child(odd) .content-container {
+  flex-direction: row-reverse;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fbc427;
+  max-width: 612px;
+  text-indent: -1rem;
+}
+.title-none {
+  display: none;
+  opacity: 0;
+}
+.text {
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+  max-width: 612px;
+}
+.photo-container {
+  width: 282px;
+  height: 221px;
+  border-radius: 20px;
+  background-color: #000;
+  overflow: hidden;
+}
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+    margin: 80px auto;
+  }
+  .content-container {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 60px auto;
+  }
+  .content-container {
+    max-width: 680px;
+  }
+  .container:nth-child(odd) > .content-container > .content {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 343px;
+    margin: 50px auto;
+    display: flex;
+  }
+  .container:nth-child(even) .team,
+  .container:nth-child(odd) .team {
+    left: 50%;
+  }
+  .team-position {
+    left: 50% !important;
+  }
+
+  .content-container,
+  .container:nth-child(odd) .content-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo-container {
+    width: 279px;
+    height: 221px;
+  }
+  .content-container p {
+    margin-top: 12px;
+  }
+  .content-container,
+  .title,
+  .text {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  .container:nth-child(odd) .content-container .content {
+    margin-left: 0;
+  }
+
+  .container:nth-child(even) .content-container div {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 343px;
+    margin: 50px 16px;
+    display: flex;
+  }
+  .container:nth-child(even) .team,
+  .container:nth-child(odd) .team {
+    left: 50%;
+  }
+  .team-position {
+    left: 50% !important;
+  }
+
+  .content-container,
+  .container:nth-child(odd) .content-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo-container {
+    width: 279px;
+    height: 221px;
+  }
+  .content-container p {
+    margin-top: 12px;
+  }
+  .content-container,
+  .title,
+  .text {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  .container:nth-child(odd) .content-container .content {
+    margin-left: 0;
+  }
+
+  .container:nth-child(even) .content-container div {
+    margin: 0;
+  }
+}

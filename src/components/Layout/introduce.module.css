@@ -1,0 +1,61 @@
+.title {
+  color: #fbc427;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+.text {
+  font-size: 16px;
+  color: #fff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+.icon {
+  position: absolute;
+  top: -20px;
+}
+.container .album {
+  max-width: 590px;
+  max-height: 360px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .title,
+  .text {
+    text-align: center;
+  }
+  .text span {
+    display: block;
+    margin: 16px 0;
+  }
+  .container .album {
+    max-width: 590px;
+    max-height: 360px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    flex-direction: column;
+    max-width: 343px;
+  }
+  .title,
+  .text {
+    text-align: center;
+  }
+  .text span {
+    display: block;
+    margin: 16px 0;
+  }
+  .container .album {
+    width: 343px;
+    height: 189px;
+  }
+}

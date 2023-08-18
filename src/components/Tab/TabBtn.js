@@ -1,0 +1,34 @@
+import classes from "./TabBtn.module.css";
+
+const TabBtn = ({ selectedTab, onTabClick, tab }) => {
+  const tabList = tab.map((tab) => (
+    <button
+      type="button"
+      key={tab.key}
+      className={`${classes.btn} 
+      ${
+        selectedTab === tab.type
+          ? classes["btn-active"]
+          : classes["btn-default"]
+      } ${tab.page === "speaker" ? classes["btn-speaker"] : ""}`}
+      onClick={() => onTabClick(tab.type)}
+    >
+      {tab.text}
+    </button>
+  ));
+  const hasSpeakerPage = tab.some((tab) => tab.page === "speaker");
+
+  return (
+    <div>
+      <div
+        className={`${classes["tab-menu"]} ${
+          hasSpeakerPage ? classes["tab-menu-speaker"] : ""
+        }`}
+      >
+        {tabList}
+      </div>
+    </div>
+  );
+};
+
+export default TabBtn;

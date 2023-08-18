@@ -1,0 +1,10 @@
+.sponsor-container {
+  color: #fff;
+}
+.sponsor {
+  width: 180px;
+  height: 100px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}

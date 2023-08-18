@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+body {
+  margin: 0;
+  background: linear-gradient(
+    155deg,
+    rgba(43, 56, 60, 1) 60%,
+    rgba(244, 124, 87, 1) 150%
+  );
+
+  font-family: "Noto Sans", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body::-webkit-scrollbar {
+  display: none;
+  overflow: -moz-hidden-unscrollable;
+}
