@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mopcon/static/css/main.d6592ddd.css",
-    "main.js": "/mopcon/static/js/main.1ab2a7f7.js",
+    "main.js": "/mopcon/static/js/main.9c383c6d.js",
     "static/js/787.b568c184.chunk.js": "/mopcon/static/js/787.b568c184.chunk.js",
     "static/media/groupphoto_2020.jpg": "/mopcon/static/media/groupphoto_2020.c9d0da57d6fb2bd8f28a.jpg",
     "static/media/groupphoto_2019.jpg": "/mopcon/static/media/groupphoto_2019.772ce4b6251211985f44.jpg",
@@ -36,11 +36,11 @@
     "static/media/FB.svg": "/mopcon/static/media/FB.a4b3e274a2a9eae943d0812b61c44d11.svg",
     "static/media/fb-card.svg": "/mopcon/static/media/fb-card.a9673736a03b46715db76f3d61c6057a.svg",
     "main.d6592ddd.css.map": "/mopcon/static/css/main.d6592ddd.css.map",
-    "main.1ab2a7f7.js.map": "/mopcon/static/js/main.1ab2a7f7.js.map",
+    "main.9c383c6d.js.map": "/mopcon/static/js/main.9c383c6d.js.map",
     "787.b568c184.chunk.js.map": "/mopcon/static/js/787.b568c184.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6592ddd.css",
-    "static/js/main.1ab2a7f7.js"
+    "static/js/main.9c383c6d.js"
   ]
 }
