@@ -152,10 +152,10 @@
 }
 @media screen and (max-width: 568px) {
   .warp {
-    max-width: 480px;
+    max-width: 343px;
   }
   .container {
-    max-width: 400px;
+    max-width: 280px;
     padding: 36px 0;
   }
   .speaker-container {
@@ -167,21 +167,10 @@
     align-items: center;
   }
   .angeda-container {
-    max-width: 400px;
+    max-width: 280px;
   }
   .name,
   .job {
     text-align: center;
-  }
-}
-@media screen and (max-width: 375px) {
-  .warp {
-    max-width: 343px;
-  }
-  .container {
-    max-width: 280px;
-  }
-  .angeda-container {
-    max-width: 280px;
   }
 }

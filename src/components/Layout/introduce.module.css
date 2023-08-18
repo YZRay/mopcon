@@ -41,7 +41,7 @@
     max-height: 360px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 568px) {
   .container {
     flex-direction: column;
     max-width: 343px;

@@ -40,7 +40,7 @@
 .swiper-container .swiper-pagination {
   bottom: -30px !important;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 568px) {
   .photo-container {
     width: 279px;
     height: 189px;

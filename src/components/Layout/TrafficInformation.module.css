@@ -71,12 +71,8 @@
     flex-direction: column;
   }
 }
+
 @media screen and (max-width: 568px) {
-  .location-img img {
-    max-width: 343px;
-  }
-}
-@media screen and (max-width: 375px) {
   .location-img img {
     max-width: 343px;
   }
