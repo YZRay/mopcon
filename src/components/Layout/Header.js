@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import classes from "./Header.module.css";
 import NavModal from "./Modal/NavModal";
@@ -21,10 +22,10 @@ const Header = () => {
     <Fragment>
       <header className={classes.header}>
         <p className={classes.logo}>
-          <a href="/">
+          <Link to="/">
             M<span className={classes.textcolor}>O</span>PC
             <span className={classes.textcolor}>O</span>N
-          </a>
+          </Link>
         </p>
         <button onClick={openModal}>
           <Menu />
