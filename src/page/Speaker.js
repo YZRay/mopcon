@@ -1,4 +1,3 @@
-// Speaker.js
 import React, { Fragment, useState } from "react";
 import Hero from "../components/Layout/Hero";
 import TabBtn from "../components/Tab/TabBtn";
@@ -38,6 +37,10 @@ const Speaker = () => {
 
   return (
     <Fragment>
+      {openModal && (
+        <SpeakerModal speaker={selectedSpeaker} onClose={hideModalHandle} />
+      )}
+
       <Hero {...speakerHeroContent} />
       <p style={paragraphStyle}>講者陣容</p>
       <TabBtn
@@ -49,9 +52,6 @@ const Speaker = () => {
         SpeakerContent={SpeakerContent}
         onOpenModal={showModalHandle}
       />
-      {openModal && (
-        <SpeakerModal speaker={selectedSpeaker} onClose={hideModalHandle} />
-      )}
     </Fragment>
   );
 };

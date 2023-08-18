@@ -1,31 +1,33 @@
 import classes from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 import { ReactComponent as ArrowIcon } from "../asset/Icon/ep_arrow-down.svg";
+
 const Navbar = () => {
   return (
     <ul className={classes.button}>
       <li className={classes.nav}>
-        <a href="/host-community">主辦社群</a>
+        <Link to="/host-community">主辦社群</Link>
       </li>
       <li className={classes.nav}>
-        <a href="/some-link2">
+        <Link to="/some-link2">
           議程介紹
           <ArrowIcon />
-        </a>
+        </Link>
       </li>
       <li className={classes.nav}>
-        <a href="/speaker">講者陣容</a>
+        <Link to="/speaker">講者陣容</Link>
       </li>
       <li className={classes.nav}>
-        <a href="/sponsor">贊助夥伴</a>
+        <Link to="/sponsor">贊助夥伴</Link>
       </li>
       <li className={classes.nav}>
-        <a href="/ticket">票種介紹</a>
+        <Link to="/ticket">票種介紹</Link>
       </li>
       <li className={classes.nav}>
-        <a href="/some-link">共筆文件</a>
+        <Link to="/some-link">共筆文件</Link>
       </li>
       <li className={classes.nav}>
-        <a href="/time-machine">時光機</a>
+        <Link to="/time-machine">時光機</Link>
       </li>
     </ul>
   );
