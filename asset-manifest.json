@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mopcon/static/css/main.0683ad93.css",
-    "main.js": "/mopcon/static/js/main.9df53368.js",
+    "main.css": "/mopcon/static/css/main.ad114323.css",
+    "main.js": "/mopcon/static/js/main.d2a6cbcb.js",
     "static/js/787.b568c184.chunk.js": "/mopcon/static/js/787.b568c184.chunk.js",
     "static/media/groupphoto_2020.jpg": "/mopcon/static/media/groupphoto_2020.c9d0da57d6fb2bd8f28a.jpg",
     "static/media/groupphoto_2019.jpg": "/mopcon/static/media/groupphoto_2019.772ce4b6251211985f44.jpg",
@@ -35,12 +35,12 @@
     "static/media/carbon_close-outline.svg": "/mopcon/static/media/carbon_close-outline.fe18b4c2a3c0947947f229bf062d7524.svg",
     "static/media/FB.svg": "/mopcon/static/media/FB.a4b3e274a2a9eae943d0812b61c44d11.svg",
     "static/media/fb-card.svg": "/mopcon/static/media/fb-card.a9673736a03b46715db76f3d61c6057a.svg",
-    "main.0683ad93.css.map": "/mopcon/static/css/main.0683ad93.css.map",
-    "main.9df53368.js.map": "/mopcon/static/js/main.9df53368.js.map",
+    "main.ad114323.css.map": "/mopcon/static/css/main.ad114323.css.map",
+    "main.d2a6cbcb.js.map": "/mopcon/static/js/main.d2a6cbcb.js.map",
     "787.b568c184.chunk.js.map": "/mopcon/static/js/787.b568c184.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0683ad93.css",
-    "static/js/main.9df53368.js"
+    "static/css/main.ad114323.css",
+    "static/js/main.d2a6cbcb.js"
   ]
 }
