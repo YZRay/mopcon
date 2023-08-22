@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Speaker Name 1",
+    "jobTitle": "Full stack engineer",
+    "hashTag": ["#Android", "#Cloud Services & HA/HS Computing"],
+    "introduce": "Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction",
+    "agendaTopicName": "Agenda Topic",
+    "introductionToTheAgenda": "Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction",
+    "targetAudience": "Target Audience",
+    "priorKnowledge": "Prior Knowledge",
+    "expectedHarvest": "Expected Harvest",
+    "agendaLocation": "Agenda Location",
+    "fb": "/fb",
+    "gitHub": "/gitHub",
+    "twitter": "/twitter",
+    "website": "/some-link",
+    "Img": ""
+  },
+  {
+    "name": "Speaker Name 2",
+    "jobTitle": "Full stack engineer",
+    "hashTag": ["#Android", "#IOS"],
+    "introduce": "Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction",
+    "agendaTopicName": "Agenda Topic",
+    "introductionToTheAgenda": "Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction",
+    "targetAudience": "Target Audience",
+    "priorKnowledge": "Prior Knowledge",
+    "expectedHarvest": "Expected Harvest",
+    "agendaLocation": "Agenda Location",
+    "fb": "/fb",
+    "gitHub": "/gitHub",
+    "twitter": "/twitter",
+    "website": "/some-link",
+    "Img": ""
+  },
+  {
+    "name": "Speaker Name 3",
+    "jobTitle": "Full stack engineer",
+    "hashTag": ["#IOS", "#Cloud Services & HA/HS Computing"],
+    "introduce": "Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction Speaker introduction",
+    "agendaTopicName": "Agenda Topic",
+    "introductionToTheAgenda": "Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction Agenda introduction",
+    "targetAudience": "Target Audience",
+    "priorKnowledge": "Prior Knowledge",
+    "expectedHarvest": "Expected Harvest",
+    "agendaLocation": "Agenda Location",
+    "fb": "/fb",
+    "gitHub": "/gitHub",
+    "twitter": "/twitter",
+    "website": "/some-link",
+    "Img": ""
+  }
+]

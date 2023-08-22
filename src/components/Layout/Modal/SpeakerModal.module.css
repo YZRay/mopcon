@@ -9,7 +9,6 @@
 .warp {
   overflow-y: auto;
   max-height: 95vh;
-  overflow-y: auto;
   max-width: 720px;
   margin: 20px auto;
   border-radius: 20px;

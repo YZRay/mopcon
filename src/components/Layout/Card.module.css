@@ -19,6 +19,12 @@
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .content a {
   text-decoration: none;
   color: #f47c57;
@@ -32,7 +38,6 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  margin-top: 80px;
 }
 .container:nth-child(odd) .icon-container {
   justify-content: end;
@@ -85,6 +90,7 @@
   justify-content: space-between;
   padding: 62px 0;
   max-width: 1020px;
+  height: 221px;
 }
 
 .container:nth-child(odd) .content-container {
@@ -107,6 +113,7 @@
   color: #fff;
   line-height: 24px;
   max-width: 612px;
+  margin-bottom: 0px;
 }
 .photo-container {
   width: 282px;
@@ -129,23 +136,18 @@
     max-width: 900px;
   }
 }
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 720px;
-    margin: 60px auto;
-  }
-  .content-container {
-    max-width: 680px;
-  }
-  .container:nth-child(odd) > .content-container > .content {
-    margin-left: 40px;
-  }
-}
+
 @media screen and (max-width: 768px) {
   .container {
     max-width: 343px;
     margin: 50px auto;
     display: flex;
+  }
+  .content {
+    display: block;
+  }
+  .icon-container {
+    margin-top: 30px;
   }
   .container:nth-child(even) .team,
   .container:nth-child(odd) .team {
@@ -160,6 +162,8 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
+    height: 100%;
   }
   .photo-container {
     width: 279px;
@@ -176,10 +180,6 @@
   }
   .container:nth-child(odd) .content-container .content {
     margin-left: 0;
-  }
-
-  .container:nth-child(even) .content-container div {
-    margin: 0;
   }
 }
 
@@ -218,9 +218,5 @@
   }
   .container:nth-child(odd) .content-container .content {
     margin-left: 0;
-  }
-
-  .container:nth-child(even) .content-container div {
-    margin: 0;
   }
 }
