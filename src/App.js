@@ -7,6 +7,8 @@ import TimeMachine from "./page/TimeMachine";
 import Speaker from "./page/Speaker";
 import Ticket from "./page/Ticket";
 import Sponsor from "./page/Sponsor";
+import MainAgenda from "./page/MainAgenda";
+import ComAgenda from "./page/ComAgenda";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/host-community" element={<HostCommunity />} />
+        <Route path="/MainAgenda" element={<MainAgenda />} />
+        <Route path="/ComAgenda" element={<ComAgenda />} />
         <Route path="/time-machine" element={<TimeMachine />} />
         <Route path="/speaker" element={<Speaker />} />
         <Route path="/ticket" element={<Ticket />} />

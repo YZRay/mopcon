@@ -1,11 +1,11 @@
 import Hero from "../components/Layout/Hero";
 import { Fragment } from "react";
-import timeMachineHeroContent from "../data/HeroContent/timeMachineHeroData";
+import TimeMachineHeroContent from "../data/HeroContent/TimeMachineHeroData";
 
 const TimeMachine = () => {
   return (
     <Fragment>
-      <Hero {...timeMachineHeroContent} />
+      <Hero {...TimeMachineHeroContent} />
     </Fragment>
   );
 };

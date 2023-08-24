@@ -1,11 +1,18 @@
 import classes from "./NavModal.module.css";
 import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
-import React, { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { ReactComponent as Close } from "../../asset/Icon/carbon_close-outline.svg";
 import { ReactComponent as ArrowIcon } from "../../asset/Icon/ep_arrow-down.svg";
 
 const NavModal = (props) => {
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  const handleDropdownToggle = (event) => {
+    event.stopPropagation();
+    setShowDropdown(!showDropdown);
+  };
+
   return (
     <Fragment>
       {ReactDOM.createPortal(
@@ -14,10 +21,28 @@ const NavModal = (props) => {
             <li className={classes.nav}>
               <Link to="/host-community">主辦社群</Link>
             </li>
-            <li className={classes.nav}>
-              <Link to="/some-link1">
-                議程介紹 <ArrowIcon style={{ stroke: "#ef7b4a" }} />
+            <li
+              className={`${classes.nav} ${showDropdown ? classes.active : ""}`}
+              onClick={handleDropdownToggle}
+            >
+              <Link to="#">
+                議程介紹
+                <ArrowIcon style={{ stroke: "#ef7b4a" }} />
               </Link>
+              {showDropdown && (
+                <ul className={classes.dropdown}>
+                  <li className={classes.menu}>
+                    <Link to="/MainAgenda" onClick={props.onClose}>
+                      主要議程
+                    </Link>
+                  </li>
+                  <li className={classes.menu}>
+                    <Link to="/ComAgenda" onClick={props.onClose}>
+                      交流議程
+                    </Link>
+                  </li>
+                </ul>
+              )}
             </li>
             <li className={classes.nav}>
               <Link to="/speaker">講者陣容</Link>

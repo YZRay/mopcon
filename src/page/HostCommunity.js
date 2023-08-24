@@ -7,6 +7,7 @@ import communityContent from "../data/hostCommunity/communityData";
 import teamContent from "../data/hostCommunity/teamData";
 import communityHeroContent from "../data/HeroContent/hostCommunityHeroData";
 import { v4 as uuidv4 } from "uuid";
+import { ReactComponent as FBIcon } from "../components/asset/Icon/FB.svg";
 
 const tab = [
   { text: "主辦團隊", type: "team", key: uuidv4(), page: "host" },
@@ -23,7 +24,7 @@ const HostCommunity = () => {
   const contentData = selectedTab === "team" ? teamContent : communityContent;
   return (
     <Fragment>
-      <Hero {...communityHeroContent} />
+      <Hero {...communityHeroContent} btnIcon={<FBIcon />} />
       <TabBtn tab={tab} selectedTab={selectedTab} onTabClick={handleTabClick} />
       {contentData.map((card) => (
         <Card {...card} selectedTab={selectedTab} />

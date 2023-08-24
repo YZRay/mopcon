@@ -1,0 +1,126 @@
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  border-bottom: 1px solid #f0f0f1;
+  border-top: 1px solid #f0f0f1;
+  color: #dbdae1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container p {
+  margin-right: 56px;
+  font-size: 20px;
+}
+.container .card:first-of-type {
+  margin-right: 24px;
+}
+.card {
+  margin: 40px 0;
+  width: 384px;
+  height: 242px;
+  border-radius: 10px;
+  border: 1px solid #dbdae1;
+  background: rgba(240, 240, 241, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin: 24px 32px;
+  font-size: 14px;
+  align-items: flex-start;
+}
+
+.text span:first-child {
+  font-size: 20px;
+}
+
+.tab {
+  border: 1px solid #dbdae1;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding: 4px 8px;
+}
+
+.content {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  margin: 32px;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.break {
+  max-width: 971px;
+  margin: 43px auto 43px auto;
+  text-align: start;
+  color: #f0f0f1;
+  font-size: 24px;
+}
+.break span:first-child {
+  margin-right: 394px;
+  font-size: 20px;
+}
+.wrap .break:nth-last-child(2) span:first-child {
+  margin-right: 452px;
+}
+.mopnight {
+  border-top: 1px solid #dbdae1;
+  max-width: 1200px;
+  border-bottom: 1px solid #dbdae1;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 375px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container .card:first-of-type {
+    margin-right: 0;
+  }
+  .card {
+    max-width: 375px;
+    margin: 0 0 24px 0;
+  }
+  .break {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 24px auto 24px auto;
+    max-width: 386px;
+  }
+  .break span:first-child {
+    margin-right: 0;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  .wrap .break:nth-last-child(2) span:first-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .wrap {
+    max-width: 343px;
+    margin: 0 auto;
+  }
+  .card {
+    max-width: 343px;
+  }
+}
