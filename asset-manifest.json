@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mopcon/static/css/main.ad114323.css",
-    "main.js": "/mopcon/static/js/main.d2a6cbcb.js",
+    "main.css": "/mopcon/static/css/main.a6924156.css",
+    "main.js": "/mopcon/static/js/main.7e34d462.js",
     "static/js/787.b568c184.chunk.js": "/mopcon/static/js/787.b568c184.chunk.js",
     "static/media/groupphoto_2020.jpg": "/mopcon/static/media/groupphoto_2020.c9d0da57d6fb2bd8f28a.jpg",
     "static/media/groupphoto_2019.jpg": "/mopcon/static/media/groupphoto_2019.772ce4b6251211985f44.jpg",
@@ -29,18 +29,19 @@
     "static/media/facebook.svg": "/mopcon/static/media/facebook.fc04c3deade7716122debaf64ed29ca3.svg",
     "static/media/ri_train.svg": "/mopcon/static/media/ri_train.62ea68d43c6fdfb71bde46a317e8c4fa.svg",
     "static/media/ep_arrow-down.svg": "/mopcon/static/media/ep_arrow-down.fa1b630813015ce54905254c6113eb14.svg",
+    "static/media/location.svg": "/mopcon/static/media/location.fffa18178b9b7358725449f680ee99b0.svg",
     "index.html": "/mopcon/index.html",
     "static/media/system-uicons_external.svg": "/mopcon/static/media/system-uicons_external.998fb1a8889285971e25cc3e5ea46d2c.svg",
     "static/media/calendar.svg": "/mopcon/static/media/calendar.a5e1cdca81b90bf1d5120967558d96d6.svg",
     "static/media/carbon_close-outline.svg": "/mopcon/static/media/carbon_close-outline.fe18b4c2a3c0947947f229bf062d7524.svg",
     "static/media/FB.svg": "/mopcon/static/media/FB.a4b3e274a2a9eae943d0812b61c44d11.svg",
     "static/media/fb-card.svg": "/mopcon/static/media/fb-card.a9673736a03b46715db76f3d61c6057a.svg",
-    "main.ad114323.css.map": "/mopcon/static/css/main.ad114323.css.map",
-    "main.d2a6cbcb.js.map": "/mopcon/static/js/main.d2a6cbcb.js.map",
+    "main.a6924156.css.map": "/mopcon/static/css/main.a6924156.css.map",
+    "main.7e34d462.js.map": "/mopcon/static/js/main.7e34d462.js.map",
     "787.b568c184.chunk.js.map": "/mopcon/static/js/787.b568c184.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad114323.css",
-    "static/js/main.d2a6cbcb.js"
+    "static/css/main.a6924156.css",
+    "static/js/main.7e34d462.js"
   ]
 }
