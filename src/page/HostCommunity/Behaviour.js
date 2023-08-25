@@ -3,7 +3,7 @@ import classes from "./Behaviour.module.css";
 const Behaviour = () => {
   return (
     <div className={classes.background}>
-      <div className={classes.container}>
+      <section className={classes.container}>
         <p className={classes.title}>MOPCON行為準則</p>
         <p>
           MOPCON
@@ -26,7 +26,7 @@ const Behaviour = () => {
           我們希望參與者在各活動場合、會議有關的社群活動都能遵循這些規則。
           此行為準則是基於 Conference Code of Conduct 而訂定。
         </p>
-      </div>
+      </section>
     </div>
   );
 };

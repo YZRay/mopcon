@@ -2,13 +2,13 @@
 import React, { Fragment } from "react";
 import classes from "./SpeakerModal.module.css";
 import ReactDOM from "react-dom";
-import { ReactComponent as GithubIcon } from "../../asset/Icon/github.svg";
-import { ReactComponent as FBIcon } from "../../asset/Icon/FB.svg";
-import { ReactComponent as TwitterIcon } from "../../asset/Icon/twitter.svg";
-import { ReactComponent as SiteIcon } from "../../asset/Icon/site.svg";
-import { ReactComponent as CloseIcon } from "../../asset/Icon/carbon_close-outline.svg";
-import { ReactComponent as CalendarIcon } from "../../asset/Icon/calendar.svg";
-import { ReactComponent as ShareIcon } from "../../asset/Icon/share.svg";
+import { ReactComponent as GithubIcon } from "../../../components/asset/Icon/github.svg";
+import { ReactComponent as FBIcon } from "../../../components/asset/Icon/FB.svg";
+import { ReactComponent as TwitterIcon } from "../../../components/asset/Icon/twitter.svg";
+import { ReactComponent as SiteIcon } from "../../../components/asset/Icon/site.svg";
+import { ReactComponent as CloseIcon } from "../../../components/asset/Icon/carbon_close-outline.svg";
+import { ReactComponent as CalendarIcon } from "../../../components/asset/Icon/calendar.svg";
+import { ReactComponent as ShareIcon } from "../../../components/asset/Icon/share.svg";
 
 const SpeakerModal = (props) => {
   const { speaker, onClose } = props;

@@ -1,5 +1,5 @@
 .photo-container {
-  width: 492px;
+  max-width: 492px;
   height: 360px;
   text-align: center;
   position: relative;
@@ -12,12 +12,21 @@
   height: 100%;
   object-fit: cover;
 }
-.swiper-container {
+/* .swiper-container {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+} */
+.swiper {
+  padding-bottom: 40px;
+  overflow-y: visible;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 180px;
 }
 
 .swiper-slide {
@@ -26,21 +35,23 @@
   align-items: center;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.swiper-container {
+} */
+/* .swiper-container {
   position: relative;
   width: 70%;
   margin: 0 auto;
-}
-.swiper-container .swiper-pagination {
-  bottom: -30px !important;
-}
+} */
+
 @media screen and (max-width: 568px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 120px;
+  }
   .photo-container {
     width: 279px;
     height: 189px;

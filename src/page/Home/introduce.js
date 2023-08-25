@@ -1,6 +1,6 @@
 import classes from "./introduce.module.css";
-import SwiperPhoto from "../swiper/Swiper";
-import { ReactComponent as StarIcon } from "../asset/Icon/Star.svg";
+import SwiperPhoto from "../../components/swiper/Swiper";
+import { ReactComponent as StarIcon } from "../../components/asset/Icon/Star.svg";
 
 const Introduce = () => {
   return (

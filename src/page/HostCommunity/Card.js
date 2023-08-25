@@ -4,7 +4,7 @@ import { ReactComponent as SitelIcon } from "../../components/asset/Icon/site.sv
 
 const Card = (props) => {
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <div
         className={`${classes.team} ${
           props.team === "紀錄(攝影+直播)組" ? classes["team-position"] : ""
@@ -63,7 +63,7 @@ const Card = (props) => {
           <img src={props.Img} alt="img"></img>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

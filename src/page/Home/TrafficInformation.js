@@ -1,6 +1,6 @@
 import classes from "./TrafficInformation.module.css";
-import Location from "../asset/location.png";
-import { ReactComponent as ExternalIcon } from "../asset/Icon/system-uicons_external.svg";
+import Location from "../../components/asset/location.png";
+import { ReactComponent as ExternalIcon } from "../../components//asset/Icon/system-uicons_external.svg";
 import Traffic from "./Traffic";
 
 const TrafficInformation = () => {

@@ -1,13 +1,13 @@
 import React, { Fragment, useState } from "react";
-import Hero from "../components/Layout/Hero";
-import TabBtn from "../components/Tab/TabBtn";
-import SpeakerCard from "../components/Layout/SpeakerCard";
-import SpeakerModal from "../components/Layout/Modal/SpeakerModal";
-import speakerHeroContent from "../data/HeroContent/speakerHeroData";
-import agendaTab from "../data/AgengaTab";
-import SpeakerContent from "../data/SpeakerContent";
+import Hero from "../../components/Layout/Hero";
+import TabBtn from "../../components/Tab/TabBtn";
+import SpeakerCard from "./SpeakerCard";
+import SpeakerModal from "./Modal/SpeakerModal";
+import speakerHeroContent from "../../data/HeroContent/speakerHeroData";
+import agendaTab from "../../data/AgengaTab";
+import SpeakerContent from "../../data/SpeakerContent";
 
-const Speaker = () => {
+const SpeakerPage = () => {
   const [selectedTab, setSelectedTab] = useState("Android");
   const [openModal, setOpenModal] = useState(false);
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
@@ -16,6 +16,7 @@ const Speaker = () => {
     setSelectedTab(tab);
   };
 
+  // 打開 modal 時取消背景滾動，取得對應的speaker資料
   const showModalHandle = (speaker) => {
     setSelectedSpeaker(speaker);
     setOpenModal(true);
@@ -56,4 +57,4 @@ const Speaker = () => {
   );
 };
 
-export default Speaker;
+export default SpeakerPage;

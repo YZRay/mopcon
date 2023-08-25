@@ -28,7 +28,7 @@ const SwiperPhoto = () => {
         loop={true}
         navigation={true}
         autoplay={{
-          delay: 5000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -36,7 +36,7 @@ const SwiperPhoto = () => {
         }}
         modules={[Navigation, Pagination, Autoplay]}
         className="mySwiper"
-        speed={3000}
+        speed={1500}
       >
         <SwiperSlide>
           <div className="photo-container">

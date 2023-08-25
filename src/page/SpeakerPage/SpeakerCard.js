@@ -1,12 +1,10 @@
-// SpeakerCard.js
-import React from "react";
 import classes from "./SpeakerCard.module.css";
 
 const SpeakerCard = (props) => {
   const { SpeakerContent, onOpenModal } = props;
 
   return (
-    <div className={classes["speak-container"]}>
+    <section className={classes["speak-container"]}>
       {SpeakerContent.map((speaker) => (
         <div
           className={classes.card}
@@ -23,7 +21,7 @@ const SpeakerCard = (props) => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

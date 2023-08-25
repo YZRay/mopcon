@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import classes from "./Slider.module.css";
-import SponosorItem from "../Layout/SponsorItem";
-import Logo from "../asset/mopcon.png";
+import SponosorItem from "../SponsorItem";
+import Logo from "../../../components/asset/mopcon.png";
 import "swiper/css";
 import { v4 as uuidv4 } from "uuid";
 import { Autoplay } from "swiper/modules";

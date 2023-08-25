@@ -6,7 +6,7 @@ import { ReactComponent as Telegram } from "../asset/Icon/Telegram.svg";
 
 const Footer = () => {
   return (
-    <div className={classes.container}>
+    <footer className={classes.container}>
       <p className={classes.logo}>
         M<span className={classes.textcolor}>O</span>PC
         <span className={classes.textcolor}>O</span>N
@@ -26,7 +26,7 @@ const Footer = () => {
           <Telegram />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 export default Footer;

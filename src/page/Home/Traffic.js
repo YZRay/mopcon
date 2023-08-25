@@ -1,6 +1,6 @@
-import { ReactComponent as BusIcon } from "../asset/Icon/solar_bus-bold.svg";
-import { ReactComponent as HSRIcon } from "../asset/Icon/ri_train.svg";
-import { ReactComponent as MRTIcon } from "../asset/Icon/MRT.svg";
+import { ReactComponent as BusIcon } from "../../components/asset/Icon/solar_bus-bold.svg";
+import { ReactComponent as HSRIcon } from "../../components/asset/Icon/ri_train.svg";
+import { ReactComponent as MRTIcon } from "../../components/asset/Icon/MRT.svg";
 import classes from "./Traffic.module.css";
 
 const Traffic = () => {

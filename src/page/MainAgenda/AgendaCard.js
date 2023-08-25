@@ -1,16 +1,19 @@
 import classes from "./AgendaCard.module.css";
-import { ReactComponent as PinIcon } from "../asset/Icon/location.svg";
+import { ReactComponent as PinIcon } from "../../components/asset/Icon/location.svg";
 import { Fragment } from "react";
 
 const AgengaCard = ({ agendaData }) => {
+  // 透過傳遞進來的資料生成Card
   const card = agendaData.map((timeSlot, index) => (
     <Fragment key={index}>
       <section key={index} className={classes.container}>
         <p>{timeSlot.start}</p>
+        {/* 兩個不同的議程 */}
         {timeSlot.agenda.map((item, itemIndex) => (
           <div key={itemIndex} className={classes.card}>
             <div className={classes.text}>
               <span>{item.title}</span>
+              {/* 議程裡面的hashtag */}
               {item.tab.map((tab, tabIndex) => (
                 <span key={tabIndex} className={classes.tab}>
                   {tab}

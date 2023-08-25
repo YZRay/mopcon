@@ -19,6 +19,7 @@
   font-weight: 400;
   line-height: 36px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .btn:hover {
   color: #2b383c;

@@ -1,5 +1,5 @@
 import classes from "./SponsorArea.module.css";
-import Slider from "../swiper/Slider";
+import Slider from "./slider/Slider";
 
 const SponsorArea = () => {
   return (

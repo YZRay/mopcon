@@ -1,5 +1,5 @@
 import classes from "./Core.module.css";
-import CoreSquare from "../asset/coreSquare.png";
+import CoreSquare from "../../components/asset/coreSquare.png";
 
 const Core = () => {
   return (
