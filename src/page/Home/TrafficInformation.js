@@ -2,6 +2,8 @@ import classes from "./TrafficInformation.module.css";
 import Location from "../../components/asset/location.png";
 import { ReactComponent as ExternalIcon } from "../../components//asset/Icon/system-uicons_external.svg";
 import Traffic from "./Traffic";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const TrafficInformation = () => {
   return (
@@ -10,7 +12,7 @@ const TrafficInformation = () => {
       <div className={classes.container}>
         <section className={classes["location-information"]}>
           <div className={classes["location-img"]}>
-            <img src={Location} alt="Location"></img>
+            <LazyLoadImage effect="blur" src={Location} alt="Location" />
           </div>
           <div className={classes["loaction-text"]}>
             <p>

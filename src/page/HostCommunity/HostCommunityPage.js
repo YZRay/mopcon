@@ -27,10 +27,12 @@ const HostCommunityPage = () => {
   return (
     <Fragment>
       <Hero {...communityHeroContent} btnIcon={<FBIcon />} />
+
       <TabBtn tab={tab} selectedTab={selectedTab} onTabClick={handleTabClick} />
       {contentData.map((card) => (
         <Card {...card} selectedTab={selectedTab} />
       ))}
+
       <Behaviour />
     </Fragment>
   );

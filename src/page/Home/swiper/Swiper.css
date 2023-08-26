@@ -20,13 +20,7 @@
   position: relative;
 } */
 .swiper {
-  padding-bottom: 40px;
   overflow-y: visible;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  top: 180px;
 }
 
 .swiper-slide {
@@ -48,10 +42,6 @@
 } */
 
 @media screen and (max-width: 568px) {
-  .swiper-button-prev,
-  .swiper-button-next {
-    top: 120px;
-  }
   .photo-container {
     width: 279px;
     height: 189px;

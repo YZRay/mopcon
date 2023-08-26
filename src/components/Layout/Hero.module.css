@@ -1,6 +1,6 @@
 .layout {
   margin: 0 auto;
-  padding: 100px 0;
+  margin-bottom: 120px;
   overflow: hidden;
   color: #454545;
   text-align: center;
@@ -8,12 +8,26 @@
   height: 100vh;
   position: relative;
 }
+.img {
+  z-index: -100;
+  position: absolute;
+  transform: translate(-50%);
+  height: 100vh;
+  object-fit: cover;
+}
+.img-small {
+  z-index: -100;
+  position: absolute;
+  transform: translate(-50%);
+  object-fit: cover;
+  visibility: hidden;
+}
 .title {
   font-family: "Noto Sans";
   font-weight: bold;
   color: #f47c57;
   font-size: 48px;
-  margin-top: 120px;
+  margin-top: 220px;
   margin-bottom: 60px;
 }
 .home-title {
@@ -26,7 +40,7 @@
   color: #fff;
   max-width: 478px;
   font-size: 20px;
-  margin: 20px auto;
+  margin: 12px auto;
 }
 .text {
   color: #fff;
@@ -49,12 +63,14 @@
   border-radius: 24px;
   display: flex;
   max-width: 132px;
-  margin-top: 40px;
+  margin-top: 48px;
   justify-content: center;
   align-items: center;
+  position: relative;
   font-size: 16px;
   text-decoration: none;
   padding: 13px 0px;
+  z-index: 200;
 }
 .btn:hover {
   color: #fff;
@@ -82,57 +98,31 @@
 }
 /* btn */
 
-/* img */
-.perspectiveLine {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  margin-top: 70px;
-  top: 60%;
-  left: 50%;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-}
-.imgContainer {
-  pointer-events: none;
-}
-.circle {
-  position: absolute;
-  top: 32%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-.element {
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.lineMobile {
-  display: none;
-}
-/* img */
 /* RWD */
 @media screen and (max-width: 1024px) {
   .title {
-    margin-top: 120px;
+    margin-top: 200px;
   }
 }
 @media screen and (max-width: 768px) {
   .title {
-    margin-top: 80px;
+    margin-top: 160px;
   }
   .layout {
     padding-bottom: 0px;
   }
 }
 @media screen and (max-width: 568px) {
+  .img {
+    visibility: hidden;
+  }
+  .img-small {
+    visibility: visible;
+  }
   .title {
     font-size: 24px;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-top: 200px;
   }
   .btn-reverse {
     max-width: 343px;
@@ -150,9 +140,7 @@
     object-fit: cover;
     width: 100%;
   }
-  .element {
-    display: none;
-  }
+
   .title span {
     display: block;
   }
@@ -167,18 +155,12 @@
     padding-bottom: 30px;
   }
   .title {
-    margin-top: 80px;
+    margin-top: 180px;
   }
-  .lineMobile {
-    top: 70%;
-  }
+
   .home-text span {
     display: block;
     margin-bottom: 10px;
     margin-top: 20px;
-  }
-
-  .circle {
-    top: 32%;
   }
 }

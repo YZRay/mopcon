@@ -148,6 +148,7 @@
   }
   .icon-container {
     margin-top: 30px;
+    justify-content: center;
   }
   .container:nth-child(even) .team,
   .container:nth-child(odd) .team {

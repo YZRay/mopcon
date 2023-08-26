@@ -1,5 +1,5 @@
 import classes from "./introduce.module.css";
-import SwiperPhoto from "../../components/swiper/Swiper";
+import SwiperPhoto from "./swiper/Swiper";
 import { ReactComponent as StarIcon } from "../../components/asset/Icon/Star.svg";
 
 const Introduce = () => {
@@ -16,6 +16,7 @@ const Introduce = () => {
           <span>放大科技創新力</span>
         </p>
       </div>
+
       <div className={classes.album}>
         <SwiperPhoto />
       </div>
