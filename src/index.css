@@ -22,3 +22,30 @@ body::-webkit-scrollbar {
   display: none;
   overflow: -moz-hidden-unscrollable;
 }
+/* swiper */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "" !important;
+}
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  height: 22px !important;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: var(--swiper-navigation-sides-offset, -80px) !important;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: var(--swiper-navigation-sides-offset, -80px) !important;
+}
+@media screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: var(--swiper-navigation-sides-offset, -40px) !important;
+  }
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: var(--swiper-navigation-sides-offset, -40px) !important;
+  }
+}

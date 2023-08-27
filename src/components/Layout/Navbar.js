@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <ul className={classes.button}>
       <li className={classes.nav}>
-        <Link to="/host-community">主辦社群</Link>
+        <Link to="/community">主辦社群</Link>
       </li>
       <li
         className={`${classes.nav} ${showDropdown ? classes.active : ""}`}
@@ -27,10 +27,10 @@ const Navbar = () => {
         {showDropdown && (
           <ul className={classes.dropdown}>
             <li className={classes.menu}>
-              <Link to="/MainAgenda">主要議程</Link>
+              <Link to="/schedule">主要議程</Link>
             </li>
             <li className={classes.menu}>
-              <Link to="/ComAgenda">交流議程</Link>
+              <Link to="/schedule_unconf">交流議程</Link>
             </li>
           </ul>
         )}

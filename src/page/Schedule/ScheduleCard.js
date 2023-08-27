@@ -1,10 +1,10 @@
-import classes from "./AgendaCard.module.css";
+import classes from "./ScheduleCard.module.css";
 import { ReactComponent as PinIcon } from "../../components/asset/Icon/location.svg";
 import { Fragment } from "react";
 
-const AgengaCard = ({ agendaData }) => {
+const AgengaCard = ({ scheduleData }) => {
   // 透過傳遞進來的資料生成Card
-  const card = agendaData.map((timeSlot, index) => (
+  const card = scheduleData.map((timeSlot, index) => (
     <Fragment key={index}>
       <section key={index} className={classes.container}>
         <p>{timeSlot.start}</p>

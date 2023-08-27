@@ -70,7 +70,7 @@
   font-size: 16px;
   text-decoration: none;
   padding: 13px 0px;
-  z-index: 200;
+  z-index: 2;
 }
 .btn:hover {
   color: #fff;

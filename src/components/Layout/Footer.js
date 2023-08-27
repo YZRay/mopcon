@@ -10,8 +10,10 @@ const Footer = () => {
       <p className={classes.logo}>
         M<span className={classes.textcolor}>O</span>PC
         <span className={classes.textcolor}>O</span>N
-      </p>
-      <p>contact@mopcon.org</p>
+      </p>{" "}
+      <a href="mailto:contact@mopcon.org" target="blank">
+        <p>contact@mopcon.org</p>
+      </a>
       <div className={classes.social}>
         <a target="blank" href="https://www.facebook.com/mopcon?locale=zh_TW">
           <FaceBook />

@@ -6,7 +6,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 // import required modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./Swiper.css";
 import photo2015 from "../../../components/asset/groupphoto/groupphoto_2015.jpg";
 import photo2016 from "../../../components/asset/groupphoto/groupphoto_2016.jpg";
@@ -39,32 +38,32 @@ const SwiperPhoto = () => {
       >
         <SwiperSlide>
           <div className="photo-container">
-            <LazyLoadImage effect="blur" src={photo2015} alt="photo2015" />
+            <img loading="lazy" src={photo2015} alt="photo2015" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="photo-container">
-            <LazyLoadImage effect="blur" src={photo2016} alt="photo2016" />
+            <img loading="lazy" src={photo2016} alt="photo2016" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="photo-container">
-            <LazyLoadImage effect="blur" src={photo2017} alt="photo2017" />
+            <img loading="lazy" src={photo2017} alt="photo2017" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="photo-container">
-            <LazyLoadImage effect="blur" src={photo2018} alt="photo2018" />
+            <img loading="lazy" src={photo2018} alt="photo2018" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className=" photo-container">
-            <LazyLoadImage effect="blur" src={photo2019} alt="photo2019" />
+            <img loading="lazy" src={photo2019} alt="photo2019" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className=" photo-container">
-            <LazyLoadImage effect="blur" src={photo2020} alt="photo2020" />
+            <img loading="lazy" src={photo2020} alt="photo2020" />
           </div>
         </SwiperSlide>
       </Swiper>

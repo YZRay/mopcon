@@ -1,9 +1,9 @@
 import { Fragment } from "react";
-import classes from "./ComAgendaCard.module.css";
+import classes from "./UnconfCard.module.css";
 import { ReactComponent as PinIcon } from "../../components/asset/Icon/location.svg";
 
-const ComAgendaCard = ({ agendaData }) => {
-  const cardList = agendaData.map((item, index) => (
+const UnconfCard = ({ UnconfData }) => {
+  const cardList = UnconfData.map((item, index) => (
     <Fragment key={index}>
       <div className={classes.share}>
         <span>{item.share}</span>
@@ -43,4 +43,4 @@ const ComAgendaCard = ({ agendaData }) => {
   );
 };
 
-export default ComAgendaCard;
+export default UnconfCard;

@@ -4,7 +4,7 @@ import TabBtn from "../../components/Tab/TabBtn";
 import SpeakerCard from "./SpeakerCard";
 import SpeakerModal from "./Modal/SpeakerModal";
 import speakerHeroContent from "../../data/HeroContent/speakerHeroData";
-import agendaTab from "../../data/AgengaTab";
+import ScheduleTab from "../../data/ScheduleTab";
 import SpeakerContent from "../../data/SpeakerContent";
 
 const SpeakerPage = () => {
@@ -45,7 +45,7 @@ const SpeakerPage = () => {
       <Hero {...speakerHeroContent} />
       <p style={paragraphStyle}>講者陣容</p>
       <TabBtn
-        tab={agendaTab}
+        tab={ScheduleTab}
         selectedTab={selectedTab}
         onTabClick={handleTabClick}
       />

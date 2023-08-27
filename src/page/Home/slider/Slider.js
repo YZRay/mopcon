@@ -108,9 +108,7 @@ const Slider = () => {
         },
       }}
     >
-      <div class={classes.slider}>
-        <div className={classes["swiper-wrapper"]}>{sponsorList}</div>
-      </div>
+      <div className={classes["swiper-wrapper"]}>{sponsorList}</div>
     </Swiper>
   );
 };
