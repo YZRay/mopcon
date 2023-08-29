@@ -1,5 +1,4 @@
 import classes from "./SwiperTimeMachine.module.css";
-
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCreative, Navigation } from "swiper/modules";
@@ -7,6 +6,7 @@ import { ReactComponent as SwiperNext } from "../../components/asset/Icon/swiper
 import { ReactComponent as SwiperPrev } from "../../components/asset/Icon/swiper-prev.svg";
 import "swiper/css/navigation";
 import "swiper/css";
+import "./CustomSwiperButton.css";
 
 const SwiperTimeMachine = ({ img, year }) => {
   const swiperItem = img.map((item, index) => (
@@ -36,7 +36,6 @@ const SwiperTimeMachine = ({ img, year }) => {
           prevEl: `.swiper-prev-${year}`,
         }}
         modules={[Navigation, EffectCreative]}
-        className={classes.swiper}
         breakpoints={{
           768: {
             slidesPerView: "2",
@@ -56,10 +55,14 @@ const SwiperTimeMachine = ({ img, year }) => {
       >
         {swiperItem}
       </Swiper>
-      <div className={`swiper-button-prev swiper-prev-${year}`}>
+      <div
+        className={`swiper-button-prev swiper-custome-prev  swiper-prev-${year}`}
+      >
         <SwiperPrev />
       </div>
-      <div className={`swiper-button-next swiper-next-${year}`}>
+      <div
+        className={`swiper-button-next swiper-custome-next  swiper-next-${year}`}
+      >
         <SwiperNext />
       </div>
     </div>

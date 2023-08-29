@@ -23,6 +23,7 @@
 .container .album {
   max-width: 590px;
   max-height: 360px;
+  margin-top: 24px;
   position: relative;
 }
 @media screen and (max-width: 768px) {

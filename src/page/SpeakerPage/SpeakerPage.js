@@ -5,7 +5,7 @@ import SpeakerCard from "./SpeakerCard";
 import SpeakerModal from "./Modal/SpeakerModal";
 import speakerHeroContent from "../../data/HeroContent/speakerHeroData";
 import ScheduleTab from "../../data/ScheduleTab";
-import SpeakerContent from "../../data/SpeakerContent";
+import SpeakerContent from "../../data/Speaker/SpeakerContent.json";
 
 const SpeakerPage = () => {
   const [selectedTab, setSelectedTab] = useState("Android");

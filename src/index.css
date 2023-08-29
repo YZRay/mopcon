@@ -6,7 +6,7 @@ body {
     rgba(43, 56, 60, 1) 60%,
     rgba(244, 124, 87, 1) 150%
   );
-
+  box-sizing: border-box;
   font-family: "Noto Sans", BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -21,31 +21,4 @@ code {
 body::-webkit-scrollbar {
   display: none;
   overflow: -moz-hidden-unscrollable;
-}
-/* swiper */
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  content: "" !important;
-}
-.swiper-button-prev svg,
-.swiper-button-next svg {
-  height: 22px !important;
-}
-.swiper-button-next,
-.swiper-rtl .swiper-button-prev {
-  right: var(--swiper-navigation-sides-offset, -80px) !important;
-}
-.swiper-button-prev,
-.swiper-rtl .swiper-button-next {
-  left: var(--swiper-navigation-sides-offset, -80px) !important;
-}
-@media screen and (max-width: 768px) {
-  .swiper-button-next,
-  .swiper-rtl .swiper-button-prev {
-    right: var(--swiper-navigation-sides-offset, -40px) !important;
-  }
-  .swiper-button-prev,
-  .swiper-rtl .swiper-button-next {
-    left: var(--swiper-navigation-sides-offset, -40px) !important;
-  }
 }
