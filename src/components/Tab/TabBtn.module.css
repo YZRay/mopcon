@@ -23,20 +23,36 @@
 .btn-speaker {
   font-size: 16px;
 }
-.btn-active {
-  border: 1px solid #fbc427;
-  background-color: #fbc427;
-  color: #fff;
-}
 .btn-default {
   background-color: rgba(0, 0, 0, 0);
   color: #fbc427;
   border: 1px solid #fbc427;
   transition: all 1s;
 }
-.btn-default:hover {
+.btn-active {
+  border: 1px solid #fbc427;
   background-color: #fbc427;
   color: #fff;
+}
+.btn-default:hover {
+  background-color: #fbc427;
+  color: #ffffff;
+  transition: all 1s;
+}
+.btn-community-default {
+  background-color: rgba(0, 0, 0, 0);
+  color: #f47c57;
+  border: 1px solid #f47c57;
+  transition: all 1s;
+}
+.btn-community-active {
+  border: 1px solid #f47c57;
+  background-color: #f47c57;
+  color: #fff;
+}
+.btn-community-default:hover {
+  background-color: #f47c57;
+  color: #ffffff;
   transition: all 1s;
 }
 @media screen and (max-width: 1024px) {

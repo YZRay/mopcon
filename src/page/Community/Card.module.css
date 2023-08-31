@@ -1,5 +1,5 @@
 .container {
-  border: 2px solid #f6ebcc;
+  border: 2px solid #fff;
   max-width: 1200px;
   margin: 0 auto;
   border-radius: 20px;
@@ -9,7 +9,7 @@
 
 .team {
   border-radius: 27px;
-  background-color: #f6ebcc;
+  background-color: #fff;
   font-size: 20px;
   color: #fbc427;
   font-weight: bold;
@@ -18,6 +18,9 @@
   position: absolute;
   transform: translate(-50%, -50%);
   white-space: nowrap;
+}
+.community {
+  color: #f47c57;
 }
 .content {
   display: flex;
@@ -119,13 +122,19 @@
   width: 282px;
   height: 221px;
   border-radius: 20px;
-  background-color: #000;
+  background-color: #fff;
   overflow: hidden;
+  position: relative;
 }
 .photo-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  object-fit: scale-down;
 }
 @media screen and (max-width: 1024px) {
   .container {

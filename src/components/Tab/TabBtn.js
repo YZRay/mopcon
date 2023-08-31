@@ -5,12 +5,24 @@ const TabBtn = ({ selectedTab, onTabClick, tab }) => {
     <button
       type="button"
       key={tab.key}
-      className={`${classes.btn} 
+      className={`
+      ${classes.btn}
+       ${
+         selectedTab === "community"
+           ? classes["btn-community-default"]
+           : classes["btn-default"]
+       }
+       ${
+         selectedTab === "community" && tab.type === "community"
+           ? classes["btn-community-active"]
+           : ""
+       }
       ${
         selectedTab === tab.type
           ? classes["btn-active"]
           : classes["btn-default"]
-      } ${tab.page === "speaker" ? classes["btn-speaker"] : ""}`}
+      }
+      ${tab.page === "speaker" ? classes["btn-speaker"] : ""}`}
       onClick={() => onTabClick(tab.type)}
     >
       {tab.text}

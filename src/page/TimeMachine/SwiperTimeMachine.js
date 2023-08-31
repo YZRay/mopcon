@@ -14,7 +14,7 @@ const SwiperTimeMachine = ({ img, year }) => {
       <div
         className={classes.container}
         style={{
-          backgroundImage: `url( ${item})`,
+          backgroundImage: `url( ${process.env.PUBLIC_URL}${item})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center",

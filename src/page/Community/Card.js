@@ -7,6 +7,8 @@ const Card = (props) => {
     <section className={classes.container}>
       <div
         className={`${classes.team} ${
+          props.selectedTab === "team" ? "" : classes.community
+        } ${
           props.team === "紀錄(攝影+直播)組" ? classes["team-position"] : ""
         }  ${
           props.team === "CocoaHeads Kaohsiung" ? classes["team-position"] : ""
@@ -60,7 +62,7 @@ const Card = (props) => {
           </div>
         </div>
         <div className={classes["photo-container"]}>
-          <img src={props.Img} alt="img"></img>
+          <img src={`${process.env.PUBLIC_URL}${props.Img}`} alt="img"></img>
         </div>
       </div>
     </section>

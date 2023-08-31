@@ -3,7 +3,7 @@ import { Fragment, useState } from "react";
 import Card from "./Card";
 import TabBtn from "../../components/Tab/TabBtn";
 import Behaviour from "./Behaviour";
-import communityContent from "../../data/hostCommunity/communityData";
+import communityContent from "../../data/hostCommunity/communityData.json";
 import teamContent from "../../data/hostCommunity/teamData";
 import communityHeroContent from "../../data/HeroContent/CommunityHeroData";
 import { v4 as uuidv4 } from "uuid";
