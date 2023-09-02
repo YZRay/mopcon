@@ -1,8 +1,8 @@
 .speak-container {
   max-width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem 1.5rem;
   margin: 0 auto;
   color: #2b383c;
 }
@@ -13,9 +13,10 @@
   border-radius: 20px;
   max-height: 463px;
   overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 163px;
   background-color: #fff;
   margin: 0 auto;
-  margin-bottom: 2.5rem;
   box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.6);
   position: relative;
 
@@ -27,6 +28,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
@@ -40,12 +42,15 @@
   width: 384px;
   height: 300px;
   object-fit: fill;
+  position: relative;
 }
 .img-container img {
-  width: 100%;
-}
-.content-container {
-  height: 163px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
 }
 .name {
   margin-top: 2.25rem;
@@ -58,40 +63,23 @@
   font-size: 1rem;
   text-align: center;
 }
-
 .tab {
   font-size: 0.875rem;
   text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .speak-container {
-    max-width: 960px;
-    gap: 12px;
-    margin: 0 auto;
-  }
-  .card {
-    max-width: 300px;
-    max-height: 463px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 768px) {
   .speak-container {
-    max-width: 720px;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
   }
-  .card {
-    margin: 0 auto 1.25rem auto;
-    max-width: 340px;
-    max-height: 463px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .speak-container {
+  .img-container {
     max-width: 343px;
-    margin: 1.25rem auto 0 auto;
   }
   .card {
-    margin-bottom: 1.25rem;
     max-width: 343px;
     max-height: 463px;
   }

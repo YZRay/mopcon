@@ -4,7 +4,7 @@ const Behaviour = () => {
   return (
     <div className={classes.background}>
       <section className={classes.container}>
-        <p className={classes.title}>MOPCON行為準則</p>
+        <h2>MOPCON行為準則</h2>
         <p>
           MOPCON
           致力維護社群互動環境，旨在提供一個安全、友善並令人感到歡迎的環境，我們要求參與本活動的聽眾、演講者、贊助商和志工，都必須同意遵守下列行為準則，以打造一個所有人都享有安全及正向的參與者體驗。

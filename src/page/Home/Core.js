@@ -11,7 +11,7 @@ const Core = () => {
         className={classes.img}
       />
       <div className={classes.container}>
-        <p className={classes.title}>MOPCON 核心價值</p>
+        <h2>MOPCON 核心價值</h2>
         <section className={classes["content-text"]}>
           <div>
             <p>持續舉辦</p>

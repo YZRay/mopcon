@@ -6,12 +6,6 @@
   line-height: 1.5rem;
   padding: 7.5rem 0rem;
 }
-.title {
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 3.125rem;
-}
 .background {
   background-image: url("/public/assets/images/Home/imformation-background.png");
   background-size: cover;
@@ -34,9 +28,7 @@
     max-width: 343px;
     padding: 3.75rem 0rem;
   }
-  .title {
-    margin-bottom: 1.875rem;
-  }
+
   .container p {
     padding-bottom: 0.625rem;
   }
@@ -51,9 +43,7 @@
     max-width: 343px;
     padding: 3.75rem 0;
   }
-  .title {
-    margin-bottom: 1.875rem;
-  }
+
   .container p {
     padding-bottom: 0.625rem;
   }

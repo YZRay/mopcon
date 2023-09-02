@@ -7,7 +7,7 @@ import { ReactComponent as MarketIcon } from "../../components/asset/sponsorIcon
 const RewardSection = () => {
   return (
     <div className={classes.wrap}>
-      <h2 className={classes.title}>最實質的收穫</h2>
+      <h2>最實質的收穫</h2>
       <section className={classes.container}>
         <div className={classes.card}>
           <BrandIcon />

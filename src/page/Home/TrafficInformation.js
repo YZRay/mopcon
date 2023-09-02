@@ -7,7 +7,7 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 const TrafficInformation = () => {
   return (
     <div className={classes.background}>
-      <p className={classes.title}>會場資訊</p>
+      <h2>會場資訊</h2>
       <div className={classes.container}>
         <section className={classes["location-information"]}>
           <div className={classes["location-img"]}>

@@ -14,7 +14,7 @@ const SpeakerCard = (props) => {
           <div className={classes["img-container"]}>
             <img src={speaker.Img} alt={speaker.name} />
           </div>
-          <div className={classes["content-container"]}>
+          <div>
             <p className={classes.name}>{speaker.name}</p>
             <p className={classes["job-title"]}>{speaker.jobTitle}</p>
             <p className={classes.tab}>{speaker.hashTag.join(" ")}</p>

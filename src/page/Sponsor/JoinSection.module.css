@@ -17,12 +17,6 @@
 .content-container {
   max-width: 446px;
 }
-.title {
-  font-size: 24px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 3.375rem;
-}
 .content {
   font-size: 20px;
   margin-bottom: 2rem;

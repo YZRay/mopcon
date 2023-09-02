@@ -4,7 +4,7 @@ import { ReactComponent as SponosrIcon } from "../../components/asset/sponsorIco
 const JoinSection = () => {
   return (
     <div className={classes.wrap}>
-      <h2 className={classes.title}>想加入我們嗎？</h2>
+      <h2>想加入我們嗎？</h2>
       <div className={classes.container}>
         <img
           src={process.env.PUBLIC_URL + "/assets/images/sponsorimage.png"}

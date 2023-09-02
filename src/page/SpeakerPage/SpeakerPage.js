@@ -45,14 +45,6 @@ const SpeakerPage = () => {
     document.body.style.overflow = "auto";
   };
 
-  const paragraphStyle = {
-    fontSize: "24px",
-    textAlign: "center",
-    fontWeight: "bold",
-    color: "#fff",
-    marginBottom: "40px",
-  };
-
   return (
     <Fragment>
       {openModal && (
@@ -60,7 +52,7 @@ const SpeakerPage = () => {
       )}
 
       <Hero {...speakerHeroContent} />
-      <p style={paragraphStyle}>講者陣容</p>
+      <h2>講者陣容</h2>
       <TabBtn
         tab={ScheduleTab}
         selectedTab={selectedTab}
