@@ -12,14 +12,14 @@
   justify-content: center;
 }
 .container p {
-  margin-right: 56px;
-  font-size: 20px;
+  margin-right: 3.5rem;
+  font-size: 1.25rem;
 }
 .container .card:first-of-type {
-  margin-right: 24px;
+  margin-right: 1.5rem;
 }
 .card {
-  margin: 40px 0;
+  margin: 2.5rem 0;
   width: 384px;
   height: 242px;
   border-radius: 10px;
@@ -32,28 +32,28 @@
 .text {
   display: flex;
   flex-direction: column;
-  margin-top: 24px;
-  margin: 24px 32px;
-  font-size: 14px;
+  margin-top: 1.5rem;
+  margin: 1.5rem 2rem;
+  font-size: 0.875rem;
   align-items: flex-start;
 }
 
 .text span:first-child {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .tab {
   border: 1px solid #dbdae1;
   border-radius: 4px;
-  margin-top: 8px;
-  padding: 4px 8px;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
 }
 
 .content {
   display: flex;
-  font-size: 16px;
+  font-size: 1rem;
   justify-content: space-between;
-  margin: 32px;
+  margin: 2rem;
   align-items: center;
 }
 .icon {
@@ -63,23 +63,23 @@
 }
 .break {
   max-width: 971px;
-  margin: 43px auto 43px auto;
+  margin: 2.6875rem auto 2.6875rem auto;
   text-align: start;
   color: #f0f0f1;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .break span:first-child {
   margin-right: 394px;
   font-size: 20px;
 }
 .wrap .break:nth-last-child(2) span:first-child {
-  margin-right: 452px;
+  margin-right: 28.25rem;
 }
 .mopnight {
   border-top: 1px solid #dbdae1;
   max-width: 1200px;
   border-bottom: 1px solid #dbdae1;
-  margin-bottom: 120px;
+  margin-bottom: 7.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -96,19 +96,19 @@
   }
   .card {
     max-width: 375px;
-    margin: 0 0 24px 0;
+    margin: 0 0 1.5rem 0;
   }
   .break {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 24px auto 24px auto;
+    margin: 1.5rem auto 1.5rem auto;
     max-width: 386px;
   }
   .break span:first-child {
     margin-right: 0;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     font-size: 20px;
   }
   .wrap .break:nth-last-child(2) span:first-child {

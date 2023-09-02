@@ -1,13 +1,11 @@
 import classes from "./Core.module.css";
-import CoreSquare from "../../components/asset/coreSquare.png";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import planet from "../../components/asset/Planet.png";
 
 const Core = () => {
   return (
     <div className={classes.wrap}>
       <LazyLoadImage
-        src={planet}
+        src={process.env.PUBLIC_URL + "/assets/images/Home/Planet.png"}
         alt="Planet"
         effect="blur"
         className={classes.img}
@@ -46,7 +44,7 @@ const Core = () => {
             MOPCON 2023 掀起新一波科技的浪潮吧！
           </p>
           <LazyLoadImage
-            src={CoreSquare}
+            src={process.env.PUBLIC_URL + "/assets/images/Home/coreSquare.png"}
             alt="CoreSquare"
             className={classes["core-square"]}
           />

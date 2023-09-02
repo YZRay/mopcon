@@ -8,13 +8,30 @@ import ScheduleTab from "../../data/ScheduleTab";
 import SpeakerContent from "../../data/Speaker/SpeakerContent.json";
 
 const SpeakerPage = () => {
-  const [selectedTab, setSelectedTab] = useState("Android");
+  const [selectedTab, setSelectedTab] = useState([]);
   const [openModal, setOpenModal] = useState(false);
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
 
+  // 選取tab
   const handleTabClick = (tab) => {
-    setSelectedTab(tab);
+    if (selectedTab.includes(tab.type)) {
+      setSelectedTab((prevSelected) =>
+        prevSelected.filter((s) => s !== tab.type)
+      );
+    } else {
+      setSelectedTab((prevSelected) => [...prevSelected, tab.type]);
+    }
   };
+
+  // 點擊tab時篩選出對應hashTag的資料
+  const filteredSpeakerContent = SpeakerContent.filter((speaker) => {
+    if (selectedTab.length === 0) {
+      // 如果沒選tab則傳入所有資料
+      return SpeakerContent;
+    } else {
+      return selectedTab.some((tag) => speaker.hashTag.includes(tag));
+    }
+  });
 
   // 打開 modal 時取消背景滾動，取得對應的speaker資料
   const showModalHandle = (speaker) => {
@@ -50,7 +67,7 @@ const SpeakerPage = () => {
         onTabClick={handleTabClick}
       />
       <SpeakerCard
-        SpeakerContent={SpeakerContent}
+        SpeakerContent={filteredSpeakerContent}
         onOpenModal={showModalHandle}
       />
     </Fragment>

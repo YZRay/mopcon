@@ -20,7 +20,7 @@
 }
 .content {
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@
   border: 1px solid #fff;
   border-radius: 24px;
   max-width: 120px;
-  margin: 12px 0;
+  margin: 0.75rem 0;
   text-align: center;
 }
 @media screen and (max-width: 1024px) {

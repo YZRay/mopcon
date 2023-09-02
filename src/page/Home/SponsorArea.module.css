@@ -5,19 +5,19 @@
   width: 100%;
 }
 .container p {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: bold;
 }
 .container span {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .sponsor {
   width: 180px;
   height: 100px;
   background-color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   text-align: center;
 }
 .sponsor-swiper {
@@ -38,12 +38,12 @@
 }
 @media screen and (max-width: 568px) {
   .container {
-    padding-top: 60px;
+    padding-top: 3.75rem;
     max-width: 375px;
     margin: 0 auto;
   }
   .container p {
     text-align: center;
-    padding-bottom: 36px;
+    padding-bottom: 2.25rem;
   }
 }

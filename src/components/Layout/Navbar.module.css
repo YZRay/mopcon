@@ -8,8 +8,8 @@
   align-items: center;
 }
 .nav {
-  margin-left: 24px;
-  font-size: 16px;
+  margin-left: 1.5rem;
+  font-size: 1rem;
   color: #fff;
   text-decoration: none;
   font-weight: 300;
@@ -57,7 +57,7 @@
 }
 .menu {
   white-space: nowrap;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   list-style: none;
 }
 .menu:hover a {

@@ -10,11 +10,11 @@
 .team {
   border-radius: 27px;
   background-color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fbc427;
   font-weight: bold;
   text-align: center;
-  padding: 13px 30px;
+  padding: 0.8125rem 1.875rem;
   position: absolute;
   transform: translate(-50%, -50%);
   white-space: nowrap;
@@ -31,7 +31,7 @@
 .content a {
   text-decoration: none;
   color: #f47c57;
-  font-size: 16px;
+  font-size: 1rem;
   display: flex;
   gap: 2px;
   align-items: center;
@@ -60,21 +60,21 @@
 }
 .icon {
   background-color: rgba(0, 0, 0, 0);
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   border-radius: 20px;
   border: 1px solid #f47c57;
   max-width: 124px;
-  padding: 8px 0;
+  padding: 0.5rem 0;
 }
 .site {
   max-width: 124px;
-  padding: 8px 38px;
+  padding: 0.5rem 2.375rem;
 }
 .fb {
   max-width: 124px;
-  padding: 8px 16px;
-  margin-right: 16px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
 }
 /* ICON */
 .container:nth-child(even) .team {
@@ -91,7 +91,7 @@
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  padding: 62px 0;
+  padding: 3.875rem 0;
   max-width: 1020px;
   height: 221px;
 }
@@ -101,7 +101,7 @@
 }
 
 .title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: #fbc427;
   max-width: 612px;
@@ -112,11 +112,11 @@
   opacity: 0;
 }
 .text {
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
-  line-height: 24px;
+  line-height: 1.5rem;
   max-width: 612px;
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 .photo-container {
   width: 282px;
@@ -139,7 +139,7 @@
 @media screen and (max-width: 1024px) {
   .container {
     max-width: 960px;
-    margin: 80px auto;
+    margin: 5rem auto;
   }
   .content-container {
     max-width: 900px;
@@ -149,14 +149,14 @@
 @media screen and (max-width: 768px) {
   .container {
     max-width: 343px;
-    margin: 50px auto;
+    margin: 3.125rem auto;
     display: flex;
   }
   .content {
     display: block;
   }
   .icon-container {
-    margin-top: 30px;
+    margin-top: 1.875rem;
     justify-content: center;
   }
   .container:nth-child(even) .team,
@@ -172,7 +172,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
     height: 100%;
   }
   .photo-container {
@@ -180,7 +180,7 @@
     height: 221px;
   }
   .content-container p {
-    margin-top: 12px;
+    margin-top: 0.75rem;
   }
   .content-container,
   .title,
@@ -196,7 +196,7 @@
 @media screen and (max-width: 375px) {
   .container {
     max-width: 343px;
-    margin: 50px 16px;
+    margin: 3.125rem 1rem;
     display: flex;
   }
   .container:nth-child(even) .team,
@@ -218,7 +218,7 @@
     height: 221px;
   }
   .content-container p {
-    margin-top: 12px;
+    margin-top: 0.75rem;
   }
   .content-container,
   .title,

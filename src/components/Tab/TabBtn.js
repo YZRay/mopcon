@@ -18,12 +18,12 @@ const TabBtn = ({ selectedTab, onTabClick, tab }) => {
            : ""
        }
       ${
-        selectedTab === tab.type
+        selectedTab.includes(tab.type)
           ? classes["btn-active"]
           : classes["btn-default"]
       }
       ${tab.page === "speaker" ? classes["btn-speaker"] : ""}`}
-      onClick={() => onTabClick(tab.type)}
+      onClick={() => onTabClick(tab)}
     >
       {tab.text}
     </button>

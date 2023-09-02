@@ -20,7 +20,7 @@ const HostCommunityPage = () => {
 
   // 取得對應的 type
   const handleTabClick = (tab) => {
-    setSelectedTab(tab);
+    setSelectedTab(tab.type);
   };
   // 透過點擊 tab 傳遞相對應的資料進去 Card 裡面
   const contentData = selectedTab === "team" ? teamContent : communityContent;

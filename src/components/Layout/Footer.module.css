@@ -2,8 +2,8 @@
   border-top: 1px solid #fff;
   text-align: center;
   color: #fff;
-  font-size: 16px;
-  padding-bottom: 70px;
+  font-size: 1rem;
+  padding-bottom: 4.375rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -12,11 +12,10 @@
   color: #fff;
 }
 .logo {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "Wallpoet";
   color: #fff;
-
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 .textcolor {
   color: #f47c57;
@@ -24,6 +23,6 @@
 .social {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  margin-top: 24px;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }

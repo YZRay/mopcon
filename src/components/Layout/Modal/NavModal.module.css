@@ -19,18 +19,18 @@
   position: relative;
 }
 .nav {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   position: relative;
 }
 .nav a {
   color: #ef7b4a;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-decoration: none;
   font-weight: 400;
 }
 @media screen and (max-width: 375px) {
   .nav a {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 .btn {
@@ -57,11 +57,11 @@
 }
 .menu {
   white-space: nowrap;
-  font-size: 18px;
-  padding-top: 24px;
+  font-size: 1.125rem;
+  padding-top: 1.5rem;
   list-style: none;
 }
 .menu a {
-  font-size: 18px;
-  padding: 8px;
+  font-size: 1.125rem;
+  padding: 0.5rem;
 }

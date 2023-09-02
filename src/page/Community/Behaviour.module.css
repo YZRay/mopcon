@@ -2,27 +2,27 @@
   max-width: 996px;
   margin: 0 auto;
   color: #fff;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 120px 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 7.5rem 0rem;
 }
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .background {
-  background-image: url("../../components/asset/imformation-background.png");
+  background-image: url("/public/assets/images/Home/imformation-background.png");
   background-size: cover;
   width: 100%;
 }
 .container p {
-  padding-bottom: 36px;
+  padding-bottom: 2.25rem;
 }
 .container p:first-child,
 .container p:last-child {
-  padding-bottom: 0px;
+  padding-bottom: 0rem;
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -32,33 +32,33 @@
 @media screen and (max-width: 568px) {
   .container {
     max-width: 343px;
-    padding: 60px 0;
+    padding: 3.75rem 0rem;
   }
   .title {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .container p {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
   }
   .container p:first-child,
   .container p:last-child {
-    padding-bottom: 0px;
+    padding-bottom: 0rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .container {
     max-width: 343px;
-    padding: 60px 0;
+    padding: 3.75rem 0;
   }
   .title {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   .container p {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
   }
   .container p:first-child,
   .container p:last-child {
-    padding-bottom: 0px;
+    padding-bottom: 0rem;
   }
 }

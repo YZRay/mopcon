@@ -10,7 +10,7 @@
   overflow-y: auto;
   max-height: 95vh;
   max-width: 720px;
-  margin: 20px auto;
+  margin: 1.25rem auto;
   border-radius: 20px;
   background-color: #fff;
   border: 1px solid #2b383c;
@@ -26,7 +26,7 @@
 .container {
   max-width: 624px;
   margin: 0 auto;
-  padding: 70px 0;
+  padding: 4.375rem 0;
   border-bottom: 1px solid #2b383c;
 }
 .img-container {
@@ -58,7 +58,7 @@
   margin-top: 0px;
 }
 .job {
-  margin-top: -20px;
+  margin-top: -1.25rem;
   font-size: 16px;
   line-height: 24px;
 }
@@ -67,7 +67,7 @@
   line-height: 24px;
 }
 .icon-container {
-  margin-top: 16px;
+  margin-top: 1rem;
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -81,33 +81,33 @@
 /* Agenda */
 .angeda-container {
   max-width: 624px;
-  margin: 40px auto;
+  margin: 2.5rem auto;
 }
 .hashtag {
   margin-right: 8px;
   background-color: #f6ebcc;
   color: #fbc427;
   border-radius: 8px;
-  padding: 8px 7px;
+  padding: 0.5rem 0.4375rem;
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 .content {
-  margin-top: 18px;
+  margin-top: 1.125rem;
 }
 .title {
-  font-size: 14px;
+  font-size: 0.875rem;
   display: inline-block;
   line-height: 21px;
   color: #2b383c;
   border-radius: 24px;
   background-color: #f6ebcc;
   border: 1px solid #2b383c;
-  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
 }
 .content p {
-  margin-left: 36px;
-  line-height: 21px;
+  margin-left: 2.25rem;
+  line-height: 1.3125rem;
 }
 .button-container {
   display: flex;
@@ -118,7 +118,7 @@
 .button {
   border: 1px solid #2b383c;
   color: #2b383c;
-  padding: 16px 0;
+  padding: 1rem 0;
   border-radius: 28px;
   text-decoration: none;
   display: flex;
@@ -137,7 +137,7 @@
     max-width: 480px;
   }
   .name {
-    margin-top: 16px;
+    margin-top: 1rem;
   }
   .button-container {
     gap: 20px;
@@ -155,7 +155,7 @@
   }
   .container {
     max-width: 280px;
-    padding: 36px 0;
+    padding: 2.25rem 0;
   }
   .speaker-container {
     gap: 0px;

@@ -10,7 +10,7 @@ h2 {
   text-align: center;
   color: #fbc427;
   font-weight: 700;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
   position: relative;
 }
 .tab {
@@ -19,7 +19,7 @@ h2 {
   background-color: #f6ebcc;
   font-size: 24px;
   font-weight: 700;
-  padding: 8px 36px;
+  padding: 0.5rem 2.25rem;
   border-radius: 26px;
   transform: translate(-50%);
 }
@@ -27,8 +27,8 @@ h2 {
   max-width: 690px;
   display: flex;
   flex-direction: column;
-  margin-left: 216px;
-  padding-bottom: 64px;
+  margin-left: 13.5rem;
+  padding-bottom: 4rem;
   position: relative;
 }
 .container h3 {
@@ -36,13 +36,13 @@ h2 {
   text-align: left;
   color: #fbc427;
   font-weight: 700;
-  margin: 0 0 16px 0;
+  margin: 0 0 1rem 0;
 }
 
 .container p {
-  margin: 0 0 4px 0;
+  margin: 0 0 0.25rem 0;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
 }
@@ -50,23 +50,23 @@ h2 {
   position: relative;
   max-width: 670px;
   height: 241px;
-  margin-top: 52px;
-  margin-bottom: 48px;
+  margin-top: 3.25rem;
+  margin-bottom: 3rem;
 }
 .icon {
   background-color: rgba(0, 0, 0, 0);
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 20px;
   border: 1px solid #f47c57;
   max-width: 124px;
-  padding: 8px 38px;
+  padding: 0.5rem 2.375rem;
   text-decoration: none;
   color: #f47c57;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
-  margin-top: 32px;
+  margin-top: 2rem;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -97,13 +97,13 @@ h2 {
   .slide-container {
     height: 180px;
     width: 180px;
-    margin: 52px auto 32px auto;
+    margin: 3.25rem auto 2rem auto;
   }
   .tab {
-    padding: 8px 14px;
+    padding: 0.5rem 0.875rem;
   }
   .container {
-    margin-left: 90px;
+    margin-left: 5.625rem;
   }
 }
 @media screen and (max-width: 568px) {
@@ -114,13 +114,13 @@ h2 {
     max-width: 343px;
   }
   .slide-container {
-    margin: 68px auto 32px auto;
+    margin: 4.25rem auto 2rem auto;
   }
   .icon {
     position: initial;
-    margin-top: 16px;
+    margin-top: 1rem;
   }
   .container {
-    margin-left: 53px;
+    margin-left: 3.3125rem;
   }
 }
