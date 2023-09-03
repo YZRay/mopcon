@@ -29,7 +29,7 @@
     "tab": ["#IOS", "#Cloud Services & HA/HS Computing"],
     "name": "王小明",
     "location": "C區",
-    "start": "14:30 - 15:00"
+    "start": "14:00 - 14:30"
   },
   {
     "share": "15:00 - 15:30",
@@ -37,14 +37,14 @@
     "tab": ["#DevOps", "#Cloud Services & HA/HS Computing"],
     "name": "王小明",
     "location": "C區",
-    "start": "15:30 - 16:00"
+    "start": "14:30 - 15:00"
   },
   {
-    "share": "16:00 - 16:30",
+    "share": "15:30 - 16:00",
     "title": "議程名稱-6",
     "tab": ["#IOS", "#Game Planning/Design"],
     "name": "王小明",
     "location": "C區",
-    "start": "16:30 - 17:00"
+    "start": "16:00 - 16:30"
   }
 ]

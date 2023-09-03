@@ -4,14 +4,21 @@
 }
 .share {
   max-width: 1200px;
-  border-bottom: 1px solid #f0f0f1;
   border-top: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
   padding: 40px 0;
   color: #f0f0f1;
   font-size: 24px;
   display: flex;
   text-align: start;
-  margin: 0 auto;
+}
+.share-border {
+  border-bottom: none;
+}
+.card-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  border-top: 1px solid #f0f0f1;
 }
 .share span:first-child {
   font-size: 20px;
@@ -22,7 +29,7 @@
   font-size: 20px;
   color: #f0f0f1;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 40px 0;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -81,7 +88,6 @@
     max-width: 343px;
   }
   .share {
-    margin: 0 auto;
     flex-direction: column;
     padding: 24px 0;
   }
@@ -97,7 +103,6 @@
     margin: 0 0 24px 0;
   }
   .card {
-    margin: 0 auto;
     width: 343px;
   }
 }
