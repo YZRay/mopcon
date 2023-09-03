@@ -19,9 +19,13 @@
   justify-content: center;
   position: relative;
 }
-.nav a {
+.nav-text {
   text-decoration: none;
   color: #fff;
+}
+.nav a:hover {
+  color: #f47c57;
+  transition: all 0.3s;
 }
 @media screen and (max-width: 1024px) {
   .button {
@@ -39,11 +43,21 @@
   }
 }
 /* ... */
-
+.nav-agenda {
+  color: #f47c57;
+  transition: all 0.3s;
+}
+.nav-agenda svg {
+  transform: scaleY(-1);
+  transition: all 0.3s;
+}
+.nav-agenda svg path {
+  fill: #f47c57;
+}
 .dropdown {
   position: absolute;
   top: 100%;
-  border-radius: 12px;
+  border-radius: 8px;
   padding-left: 0px;
   background-color: #f47c57;
   list-style: none;
@@ -60,7 +74,7 @@
 }
 .menu {
   white-space: nowrap;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.25rem;
   list-style: none;
 }
 .menu:hover a {
@@ -71,8 +85,8 @@
   transition: all 0.3s;
 }
 .menu:first-of-type {
-  border-radius: 12px 12px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 .menu:last-of-type {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0 0 8px 8px;
 }

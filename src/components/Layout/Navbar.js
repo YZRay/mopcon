@@ -13,42 +13,63 @@ const Navbar = () => {
   return (
     <ul className={classes.button}>
       <li className={classes.nav}>
-        <Link to="/community">主辦社群</Link>
+        <Link to="/community" className={classes["nav-text"]}>
+          主辦社群
+        </Link>
       </li>
       <li
         className={`${classes.nav} ${showDropdown ? classes.active : ""}`}
         onMouseEnter={handleDropdownToggle}
         onMouseLeave={handleDropdownToggle}
       >
-        <Link to="#">
+        <Link
+          to="#"
+          className={`${classes["nav-text"]} ${
+            showDropdown ? classes["nav-agenda"] : ""
+          }`}
+        >
           議程介紹
           <ArrowIcon />
         </Link>
         {showDropdown && (
           <ul className={classes.dropdown}>
             <li className={classes.menu}>
-              <Link to="/schedule">主要議程</Link>
+              <Link to="/schedule" className={classes["nav-text"]}>
+                主要議程
+              </Link>
             </li>
             <li className={classes.menu}>
-              <Link to="/schedule_unconf">交流議程</Link>
+              <Link to="/schedule_unconf" className={classes["nav-text"]}>
+                交流議程
+              </Link>
             </li>
           </ul>
         )}
       </li>
       <li className={classes.nav}>
-        <Link to="/speaker">講者陣容</Link>
+        <Link to="/speaker" className={classes["nav-text"]}>
+          講者陣容
+        </Link>
       </li>
       <li className={classes.nav}>
-        <Link to="/sponsor">贊助夥伴</Link>
+        <Link to="/sponsor" className={classes["nav-text"]}>
+          贊助夥伴
+        </Link>
       </li>
       <li className={classes.nav}>
-        <Link to="/ticket">票種介紹</Link>
+        <Link to="/ticket" className={classes["nav-text"]}>
+          票種介紹
+        </Link>
       </li>
       <li className={classes.nav}>
-        <Link to="/some-link">共筆文件</Link>
+        <Link to="/some-link" className={classes["nav-text"]}>
+          共筆文件
+        </Link>
       </li>
       <li className={classes.nav}>
-        <Link to="/time-machine">時光機</Link>
+        <Link to="/time-machine" className={classes["nav-text"]}>
+          時光機
+        </Link>
       </li>
     </ul>
   );
