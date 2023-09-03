@@ -19,18 +19,19 @@
 }
 @media screen and (max-width: 1024px) {
   .header {
-    display: inline-block;
     margin: 0 auto;
     height: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .header button {
     background-color: rgba(0, 0, 0, 0);
     border: none;
     display: inline-block;
     position: absolute;
-    top: 16px;
+    top: 1.25rem;
     cursor: pointer;
-    right: 14px;
+    right: 1rem;
   }
   .logo {
     text-align: center;
