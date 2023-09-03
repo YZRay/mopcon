@@ -61,7 +61,11 @@ const Card = (props) => {
             </a>
           </div>
         </div>
-        <div className={classes["photo-container"]}>
+        <div
+          className={`${classes["photo-container"]}  ${
+            props.selectedTab === "team" ? "" : classes.bgc
+          }`}
+        >
           <img src={`${process.env.PUBLIC_URL}${props.Img}`} alt="img"></img>
         </div>
       </div>

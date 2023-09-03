@@ -1,8 +1,12 @@
 import classes from "./SponsorSection.module.css";
 
-const SponsorSection = ({ Icon, Content, Level }) => {
+const SponsorSection = ({ Icon, Content, Level, onCardClick }) => {
   const sponsorList = Content.map((item) => (
-    <div className={classes.card} key={item.id}>
+    <div
+      className={classes.card}
+      key={item.id}
+      onClick={() => onCardClick(item)}
+    >
       <div className={classes.img}>
         <img src={`${process.env.PUBLIC_URL}${item.Img}`} alt="sponsor" />
       </div>

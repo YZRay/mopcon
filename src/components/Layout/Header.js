@@ -21,12 +21,12 @@ const Header = () => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <p className={classes.logo}>
+        <h1 className={classes.logo}>
           <Link to="/">
             M<span className={classes.textcolor}>O</span>PC
             <span className={classes.textcolor}>O</span>N
           </Link>
-        </p>
+        </h1>
         <button onClick={openModal}>
           <Menu />
         </button>

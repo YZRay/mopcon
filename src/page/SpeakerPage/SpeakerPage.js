@@ -50,7 +50,6 @@ const SpeakerPage = () => {
       {openModal && (
         <SpeakerModal speaker={selectedSpeaker} onClose={hideModalHandle} />
       )}
-
       <Hero {...speakerHeroContent} />
       <h2>講者陣容</h2>
       <TabBtn

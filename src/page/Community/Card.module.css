@@ -122,10 +122,13 @@
   width: 282px;
   height: 221px;
   border-radius: 20px;
-  background-color: #fff;
   overflow: hidden;
   position: relative;
 }
+.bgc {
+  background-color: #fff;
+}
+
 .photo-container img {
   width: 70%;
   height: 70%;

@@ -15,9 +15,7 @@ const SwiperPhoto = () => {
     <>
       <Swiper
         style={{
-          "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
-          "--swiper-navigation-size": "22px",
         }}
         loop={true}
         navigation={{
@@ -109,6 +107,7 @@ const SwiperPhoto = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+
       <div className="swiper-button-prev swiper-button-prev-w">
         <SwiperPrev />
       </div>

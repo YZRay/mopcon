@@ -1,5 +1,4 @@
-.title {
-  color: #fbc427;
+.container h3 {
   font-size: 24px;
   font-weight: bold;
   position: relative;
@@ -30,7 +29,7 @@
   .container {
     flex-direction: column;
   }
-  .title,
+  .container h3,
   .text {
     text-align: center;
   }
@@ -48,7 +47,7 @@
     flex-direction: column;
     max-width: 343px;
   }
-  .title,
+  .container h3,
   .text {
     text-align: center;
   }

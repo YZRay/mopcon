@@ -6,10 +6,10 @@ const Introduce = () => {
   return (
     <div className={classes.container}>
       <div>
-        <p className={classes.title}>
+        <h3>
           南台灣最大行動科技年會
           <StarIcon className={classes.icon} />
-        </p>
+        </h3>
         <p className={classes.text}>
           <span>聚集知識與人才 X </span>
           <span>堅持濁水溪以南 X </span>
