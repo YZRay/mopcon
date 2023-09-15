@@ -1,0 +1,22 @@
+.container {
+  padding-top: 7.5rem;
+}
+
+.location-img {
+  margin: 0 auto;
+  max-width: 792px;
+  object-fit: cover;
+  object-position: center;
+}
+@media screen and (max-width: 1023px) {
+  .location-img,
+  .location-img img {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .location-img,
+  .location-img img {
+    max-width: 343px;
+  }
+}

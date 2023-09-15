@@ -4,6 +4,7 @@ import Hero from "../../components/Layout/Hero";
 import Introduce from "./introduce";
 import Core from "./Core";
 import TrafficInformation from "./TrafficInformation";
+import VenueMap from "./VenueMap";
 import SponsorArea from "./SponsorArea";
 import homeHeroContent from "../../data/HeroContent/homeHeroData";
 
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Introduce />
       <Core />
       <TrafficInformation />
+      <VenueMap />
       <SponsorArea />
     </Fragment>
   );
