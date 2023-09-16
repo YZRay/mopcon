@@ -18,10 +18,10 @@ const NavModal = (props) => {
       {ReactDOM.createPortal(
         <div className={classes.modalBackdrop} onClick={props.onClose}>
           <ul className={classes.container}>
-            {/* <li className={classes.nav}>
+            <li className={classes.nav}>
               <Link to="/community">主辦社群</Link>
             </li>
-            <li
+            {/* <li
               className={`${classes.nav} ${showDropdown ? classes.active : ""}`}
               onClick={handleDropdownToggle}
             >

@@ -12,12 +12,12 @@ const Navbar = () => {
 
   return (
     <ul className={classes.button}>
-      {/* <li className={classes.nav}>
+      <li className={classes.nav}>
         <Link to="/community" className={classes["nav-text"]}>
           主辦社群
         </Link>
       </li>
-      <li
+      {/* <li
         className={`${classes.nav} ${showDropdown ? classes.active : ""}`}
         onMouseEnter={handleDropdownToggle}
         onMouseLeave={handleDropdownToggle}
