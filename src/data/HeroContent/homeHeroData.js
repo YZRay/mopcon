@@ -16,7 +16,7 @@ const homeHeroContent = {
   btn: "前往購票",
   btnIcon: <ExternalIcon />,
   page: "Home",
-  link: "/buyticket",
+  link: "#",
 };
 
 export default homeHeroContent;

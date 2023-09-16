@@ -18,7 +18,7 @@ const NavModal = (props) => {
       {ReactDOM.createPortal(
         <div className={classes.modalBackdrop} onClick={props.onClose}>
           <ul className={classes.container}>
-            <li className={classes.nav}>
+            {/* <li className={classes.nav}>
               <Link to="/community">主辦社群</Link>
             </li>
             <li
@@ -49,13 +49,13 @@ const NavModal = (props) => {
             </li>
             <li className={classes.nav}>
               <Link to="/sponsor">贊助夥伴</Link>
-            </li>
+            </li> */}
             <li className={classes.nav}>
               <Link to="/ticket">票種介紹</Link>
             </li>
-            <li className={classes.nav}>
-              <Link to="/some-link">共筆文件</Link>
-            </li>
+            {/* <li className={classes.nav}>
+              <Link to="#">共筆文件</Link>
+            </li> */}
             <li className={classes.nav}>
               <Link to="/time-machine">時光機</Link>
             </li>

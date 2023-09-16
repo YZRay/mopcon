@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <ul className={classes.button}>
-      <li className={classes.nav}>
+      {/* <li className={classes.nav}>
         <Link to="/community" className={classes["nav-text"]}>
           主辦社群
         </Link>
@@ -55,17 +55,17 @@ const Navbar = () => {
         <Link to="/sponsor" className={classes["nav-text"]}>
           贊助夥伴
         </Link>
-      </li>
+      </li> */}
       <li className={classes.nav}>
         <Link to="/ticket" className={classes["nav-text"]}>
           票種介紹
         </Link>
       </li>
-      <li className={classes.nav}>
-        <Link to="/some-link" className={classes["nav-text"]}>
+      {/* <li className={classes.nav}>
+        <Link to="#" className={classes["nav-text"]}>
           共筆文件
         </Link>
-      </li>
+      </li> */}
       <li className={classes.nav}>
         <Link to="/time-machine" className={classes["nav-text"]}>
           時光機
