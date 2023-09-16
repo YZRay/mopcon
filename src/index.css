@@ -18,10 +18,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
   overflow: -moz-hidden-unscrollable;
-}
+} */
 h1 {
   font-size: 48px;
   color: #dbdae1;
