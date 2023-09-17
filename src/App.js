@@ -3,6 +3,7 @@ import Header from "./components/Layout/Header";
 import Footer from "./components/Layout/Footer";
 import HomePage from "./page/Home/HomePage";
 import { lazy, Suspense } from "react";
+import ScrollToTop from "./helper/ScrollToTop";
 const CommunityPage = lazy(() => import("./page/Community/CommunityPage"));
 const TimeMachinePage = lazy(() =>
   import("./page/TimeMachine/TimeMachinePage")
@@ -17,6 +18,7 @@ function App() {
   return (
     <HashRouter>
       <Header />
+      <ScrollToTop />
       <Suspense fallback={<h1>Loading...</h1>}>
         <Routes>
           <Route path="/" element={<HomePage />} />
