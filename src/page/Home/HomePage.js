@@ -16,7 +16,7 @@ const HomePage = () => {
       <Core />
       <TrafficInformation />
       <VenueMap />
-      <SponsorArea />
+      {/* <SponsorArea /> */}
     </Fragment>
   );
 };
