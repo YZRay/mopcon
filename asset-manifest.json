@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mopcon/static/css/main.36d4285f.css",
-    "main.js": "/mopcon/static/js/main.827a2549.js",
+    "main.js": "/mopcon/static/js/main.aae81da5.js",
     "static/css/253.62a0a6a1.chunk.css": "/mopcon/static/css/253.62a0a6a1.chunk.css",
     "static/js/253.2d1ade4b.chunk.js": "/mopcon/static/js/253.2d1ade4b.chunk.js",
     "static/css/640.6ce80005.chunk.css": "/mopcon/static/css/640.6ce80005.chunk.css",
@@ -57,7 +57,7 @@
     "static/media/FB.svg": "/mopcon/static/media/FB.a4b3e274a2a9eae943d0812b61c44d11.svg",
     "static/media/fb-card.svg": "/mopcon/static/media/fb-card.a9673736a03b46715db76f3d61c6057a.svg",
     "main.36d4285f.css.map": "/mopcon/static/css/main.36d4285f.css.map",
-    "main.827a2549.js.map": "/mopcon/static/js/main.827a2549.js.map",
+    "main.aae81da5.js.map": "/mopcon/static/js/main.aae81da5.js.map",
     "253.62a0a6a1.chunk.css.map": "/mopcon/static/css/253.62a0a6a1.chunk.css.map",
     "253.2d1ade4b.chunk.js.map": "/mopcon/static/js/253.2d1ade4b.chunk.js.map",
     "640.6ce80005.chunk.css.map": "/mopcon/static/css/640.6ce80005.chunk.css.map",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.36d4285f.css",
-    "static/js/main.827a2549.js"
+    "static/js/main.aae81da5.js"
   ]
 }
